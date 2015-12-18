@@ -1,17 +1,17 @@
 {
-    "name": ":vendor/:package_name",
-    "description": ":package_description",
+    "name": "stevegacka/php-typed-properties",
+    "description": "Add powerful support for property typing and mapping on PHP objects.",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "stevegacka",
+        "php-typed-properties"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/stevegacka/php-typed-properties",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Steve Gacka",
+            "email": "stephengacka@gmail.com",
+            "homepage": "http://stevegacka.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "Gacka\\TypedProperties\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\Test\\": "tests"
+            "Gacka\\TypedProperties\\Test\\": "tests"
         }
     },
     "scripts": {

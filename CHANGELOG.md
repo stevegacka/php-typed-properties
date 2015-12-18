@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `:package_name` will be documented in this file
+All Notable changes to `php-typed-properties` will be documented in this file
 
 ## NEXT - YYYY-MM-DD
 
